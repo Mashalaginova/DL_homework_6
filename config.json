@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "Друзья вк",
+    "link": "Друзья ",
+    "text": "Шалагинова Мария"
+  },
+  "text": {
+    "more": "",
+    "intro": "В результате выполнения домашнего задания с помощью операции модулярность были выделены следующие группы, имеющие внутренние взаимосвязи:\n1. Одногруппники (светло-салатовый); \n2. Бывшие одноклассники и учителя (мандариновый); \n3. Рептилоиды (ложно-мандариновый, с оттенком красного); \n4. Пятимерные сущности из рассказов Лавкрафта (вельветово-синий); \n5. Иными цветами обозначены наиболее засекреченные и непознаваемые артефакты, не связанные с группами. \nПолученный граф соответствует реальности.",
+    "title": "Homework"
+  },
+  "legend": {
+    "edgeLabel": "Связи",
+    "colorLabel": "Группы друзей",
+    "nodeLabel": "Друзья вк"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "screen_name"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
